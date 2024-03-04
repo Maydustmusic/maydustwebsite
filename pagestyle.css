@@ -1,0 +1,122 @@
+html {
+    font-size: 16px;
+}
+
+.sociallinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 40px;
+    margin-top: 16px;
+
+    font-family: rgb(244, 244, 244);
+}
+
+.sociallinks a {
+    text-decoration: none;
+    color: white;
+}
+
+.fulldiscog {
+    text-align: center;
+}
+
+.contactmessage {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.videos {
+    text-align: center;
+}
+
+.navbar {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.email {
+    color: grey;
+}
+
+.AboutText {
+    text-align: justify;
+}
+
+body {
+    background-color: #181818;
+}
+
+/* boxes */
+
+footer {
+    background-color: rgb(244, 244, 244);
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.footerbox {
+    margin: 0 auto;
+    width: 30%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+header {
+    background-color: rgb(244, 244, 244);
+
+}
+
+.headerbox {
+    margin: 0 auto;
+    width: 30%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* hr styling */
+
+.white-hr {
+    border: none;
+    border-top: 1px solid white;
+}
+
+.black-hr {
+    border: none;
+    border-top: 1px solid black;
+}
+
+
+/*TextStyles:*/
+a {
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: rgb(255, 255, 227);
+    /* font-family: monospace; */
+}
+
+.OtherTexts {
+    color: rgb(255, 255, 227);
+}

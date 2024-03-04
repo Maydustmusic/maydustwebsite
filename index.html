@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Maydust</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="main.js" defer></script>
+
+    <script>
+        const attach = () => {
+            const animatedGroup = document.getElementById('animatedGroup');
+            const after = document.getElementById('after');
+
+            animatedGroup.addEventListener('animationend', () => {
+                animatedGroup.classList.add('done')
+                after.classList.add('ready');
+            }, { once: true });
+        };
+
+        window.addEventListener('load', attach);
+
+        setTimeout(function () {
+            window.location.href = "NewStuff.html";
+        }, 5200); // 5 seconds
+    </script>
+</head>
+
+<body>
+    <div class="albumname">
+        <div class="animatedGroup" id="animatedGroup">
+            <span>Fingerprinted</span>
+            <span>Insanity</span>
+        </div>
+        <div class="outNow" id="after">
+            <p>Out Now</p>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+
+
+</html>
